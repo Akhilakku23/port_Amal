@@ -7,7 +7,7 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className="flex justify-center space-x-6 mb-6">
           <a
-            href="https://www.linkedin.com/in/akhil-saji-7027892b5/"
+            href="https://www.linkedin.com/in/amal-manoj-a18327321/ "
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -24,7 +24,7 @@ const Footer = () => {
             <FaEnvelope />
           </a>
           <a
-            href="https://www.instagram.com/akhi_l._/"
+            href="https://www.instagram.com/am._.l_?igsh=MTd2MzJyOTk0dDBvbQ== "
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
