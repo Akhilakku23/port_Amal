@@ -83,7 +83,7 @@ const Hero = () => {
 
   <motion.a
     variants={childVariants}
-    href="pr_new.pdf"
+    href="https://drive.google.com/file/d/1xYc5XLzYkqgQstaqrDDxV4JMWuy2Ejja/view?usp=drive_link"
     target="_blank"
     rel="noopener noreferrer"
     download
