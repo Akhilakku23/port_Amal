@@ -1,6 +1,5 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"; // Fixed Twitter icon import
-import logo from "../assets/AK/2.png"
-
+import { FaEnvelope , FaInstagram, FaLinkedin,} from "react-icons/fa"; // Fixed Twitter icon import
+import logo from "../assets/AK/am.png";
 
 const Navbar = () => {
   return (
@@ -8,14 +7,18 @@ const Navbar = () => {
       {/* Logo Section */}
       <div className="flex flex-shrink-0 items-center">
         <a href="/" aria-label="Home">
-          <img src={logo} alt="akhil logo" className="h-14 w-auto " />
+          <img
+            src={logo}
+            alt="Amal logo"
+            className="h-14 w-auto filter invert brightness-200 "
+          />
         </a>
       </div>
 
       {/* Social Media Links */}
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a
-          href="https://www.linkedin.com/in/akhil-saji-7027892b5/"
+          href="https://www.linkedin.com/in/amal-manoj-a18327321/ "
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
@@ -24,32 +27,20 @@ const Navbar = () => {
           <FaLinkedin />
         </a>
 
-        <a
-          href="https://github.com/Akhilakku23"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="GitHub"
-          className="hover:text-gray-800 transition-colors"
-        >
-          <FaGithub />
-        </a>
+         <a
+            href="mailto:amalmanoj2255@gmail.com"
+            aria-label="Email"
+            className="text-xl  hover:text-blue-500"
+          >
+            <FaEnvelope />
+          </a>
 
         <a
-          href="https://x.com/AkkuA69308"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Twitter"
-          className="hover:text-blue-400 transition-colors"
-        >
-          <FaTwitter />
-        </a>
-
-        <a
-          href="https://www.instagram.com/akhi_l._?igsh=MWVvcjQ3ODQ2N2Ztag=="
+          href="https://www.instagram.com/am._.l_?igsh=MTd2MzJyOTk0dDBvbQ=="
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
-          className="hover:text-pink-500 transition-colors"
+          className= "hover:text-blue-500 transition-colors"
         >
           <FaInstagram />
         </a>

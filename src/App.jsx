@@ -1,13 +1,10 @@
 import Navbar from "./componets/Navbar"
 import Hero from "./componets/Hero"
 import Technologies from "./componets/Technologies";
-import Project from "./componets/Project";
 import Experience from "./componets/Experience";
-import Services  from "./componets/Services";
 import Contact from "./componets/Contact";
 import Footer from "./componets/Footer";
-import Education from "./componets/Education";
-import InternExp from "./componets/internExp";
+
 
 const App = () => {
   return (
@@ -19,11 +16,7 @@ const App = () => {
   <Navbar/>
   <Hero/>
   <Technologies/>
-  <Education />
-  <Project/>
   <Experience/>
-  <InternExp/>
-  <Services/>
   <Contact/>
   <Footer/>
   </div>

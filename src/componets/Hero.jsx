@@ -1,4 +1,4 @@
-import profilePic from '../assets/akhilprofile.webp.png';
+import profilePic from '../assets/AK/Amal.webp.jpg';
 import { motion } from 'framer-motion';
 
 const containerVariants = {
@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="flex justify-center lg:p-8">
             <motion.img
               src={profilePic}
-              alt="Akhil Saji"
+              alt="Amal Manoj"
               className="border border-stone-900 rounded-3xl"
               width={650}
               height={650}
@@ -51,44 +51,53 @@ const Hero = () => {
               variants={childVariants}
               className="pb-2 text-8xl tracking-tighter lg-text-8xl"
             >
-              Akhil Saji
+              Amal Manoj
             </motion.h2>
 
             <motion.span
               variants={childVariants}
               className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              MERN Stack Developer
+             3D Artist & Designer
             </motion.span>
 
             <motion.p
               variants={childVariants}
               className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter"
             >
-              I am a passionate and dedicated MERN stack web developer with
-              expertise in building dynamic, scalable, and responsive web
-              applications. Proficient in MongoDB, Express.js, React, and
-              Node.js, I specialize in creating full-stack solutions that
-              deliver seamless user experiences. I have a strong foundation in
-              front-end and back-end development, enabling me to design
-              intuitive interfaces while ensuring robust server-side
-              functionality. With a keen eye for detail and a problem-solving
-              mindset, I thrive on turning ideas into reality through clean,
-              efficient, and maintainable code. My goal is to leverage
-              technology to develop impactful and innovative solutions that
-              meet user needs and exceed expectations.
+             I’m a creative, detail-oriented designer with a passion for bringing ideas to life through both 3D modeling and graphic design. Skilled in Blender, Photoshop, and Illustrator, I love creating visually engaging assets for games, branding, and digital media. My 3D work focuses on modeling and texturing, while my design projects highlight strong composition, typography, and storytelling. Over time, I’ve worked on various freelance and personal projects that strengthened my adaptability and creative problem-solving skills. I’m driven by the challenge of blending artistry with technology and am eager to join a creative team in gaming, animation, or digital marketing where I can grow and make a real impact.
             </motion.p>
 
-            <motion.a
-              variants={childVariants}
-              href="AKhil_Saji_developer.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              download
-              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
-            >
-              Download Resume
-            </motion.a>
+            
+  <div className="flex justify-center gap-6 mb-10">
+  <motion.a
+    variants={childVariants}
+    href="amal_resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    download
+    className="bg-white rounded-full px-6 py-3 text-sm font-medium text-stone-800 shadow-md hover:bg-blue-300 transition"
+  >
+    Download Resume
+  </motion.a>
+
+  <motion.a
+    variants={childVariants}
+    href="pr_new.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    download
+    className="bg-white rounded-full px-6 py-3 text-sm font-medium text-stone-800 shadow-md hover:bg-blue-300 transition"
+  >
+    View Portfolio
+  </motion.a>
+</div>
+
+
+
+
+
+
           </motion.div>
         </div>
       </div>

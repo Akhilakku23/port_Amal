@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -15,39 +15,28 @@ const Footer = () => {
           >
             <FaLinkedin />
           </a>
+
           <a
-            href="https://github.com/Akhilakku23"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub"
-            className="text-xl hover:text-gray-400"
+            href="mailto:amalmanoj2255@gmail.com"
+            aria-label="Email"
+            className="text-xl hover:text-blue-500"
           >
-            <FaGithub />
+            <FaEnvelope />
           </a>
           <a
             href="https://www.instagram.com/akhi_l._/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
-            className="text-xl hover:text-pink-500"
+            className="text-xl  hover:text-blue-500"
           >
             <FaInstagram />
           </a>
-          <a
-            href="https://twitter.com/AkkuA69308"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Twitter"
-            className="text-xl hover:text-blue-400"
-          >
-            <FaTwitter />
-          </a>
         </div>
 
-       
         {/* Copyright */}
         <p className="text-sm text-gray-400">
-          &copy; 2025 Akhil Saji. All rights reserved.
+          &copy; 2025 Amal Manoj. All rights reserved.
         </p>
       </div>
     </footer>

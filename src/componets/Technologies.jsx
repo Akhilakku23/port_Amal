@@ -1,7 +1,6 @@
 
-import { FaNodeJs } from "react-icons/fa";
-import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb, SiExpress, SiTailwindcss, SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
+import { IoLogoFigma } from "react-icons/io5";
+import { SiAdobeaftereffects , SiAdobephotoshop , SiAdobeindesign, SiAdobepremierepro, SiBlender, SiCanva  } from "react-icons/si";
 import { motion } from "framer-motion";
 
 // Parent container animation
@@ -36,16 +35,15 @@ const iconVariants = {
 
 const Technologies = () => {
   const techStack = [
-    { Icon: SiTailwindcss, color: "text-cyan-400", name: "Tailwind CSS" },
-    { Icon: SiHtml5, color: "text-orange-500", name: "HTML" },
-    { Icon: SiCss3, color: "text-blue-500", name: "CSS" },
-    { Icon: SiJavascript, color: "text-yellow-400", name: "JavaScript" },
-    { Icon: RiReactjsLine, color: "text-cyan-400", name: "React" },
-    { Icon: SiExpress, color: "text-gray-800", name: "Express.js" },
-    { Icon: SiMongodb, color: "text-green-500", name: "MongoDB" },
-    { Icon: FaNodeJs, color: "text-green-500", name: "Node.js" },
+    { Icon: SiAdobephotoshop, color: "#31A8FF", name: "Photoshop" },
+    { Icon: SiAdobeindesign, color: "#FF3366", name: "InDesign" },
+    { Icon: SiAdobepremierepro, color: "#9999FF", name: "Premiere Pro" },
+    { Icon: SiAdobeaftereffects, color: "#9999FF", name: "After Effects" },
+    { Icon: SiBlender, color: "#F5792A", name: "Blender" },
+    { Icon: IoLogoFigma, color: "#F24E1E", name: "Figma" },
+    { Icon: SiCanva, color: "#00C4CC", name: "Canva" },
+    
   ];
-
   return (
     <div className="pb-24">
       <motion.h2
